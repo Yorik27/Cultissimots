@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="wheat">
+	<meta name="description" content="Jeu apéro sur des répliques cultes du cinéma français">
+	
+    <!-- CSS -->
+	<link rel="shortcut icon" href = "sources/image/favicon.png">
+	<link rel="apple-touch-icon" href = "sources/image/apple-touch-icon.png">
+	<link rel="manifest" href= "/manifest.json">
+    <link rel="stylesheet" href= "/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" crossorigin="anonymous"> 
+<!--:opsz,wght,FILL,GRAD@48,700,1,200-->
+
+	
+	<title>Cultissimots</title>
+	
+	
+</head>
+<body>
+	<!--_________________________Ecran accueil _______________________________-->
+	<div class="accueil-screen">
+		
+		<img class='image'
+		src="sources/image/Cultissimots logo 02.png" 
+		alt="logo">
+		<h4>Jeu apéro</h4>
+		<div class="sstit">Le meneur de jeu interprète la réplique apparaissant à l'écran.<br>
+			Les autres participants doivent donner les noms de l'acteur, du personnage et du film. <br>On peut faire écouter l'extrait.</div>
+			<button class="accueil-btn">C'est parti !</button>
+			<button class="pageListe-btn" onclick="gotoListe()">Liste des extraits…</button>
+	</div>
+	<!--°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°-->
+	
+	
+	<!--_________________________Ecran liste _________________________________-->
+	
+	<div class="liste-screen">
+			<ol id = "ol">
+			</ol>
+	</div>	
+		
+		<!--_________________________Ecran jeu __________________________________-->
+	<div class="jeu-screen" class="player">
+			
+		<div class= "texte"></div>
+		<div class= "reponse"><span class="acteur"></span><br>joue le rôle de<br><span class= "personnage"></span><br>dans<br><span class= "film"></span></div>
+			
+		<button class="btnRetourListe">Retour à la liste</button>
+		<div class="buttons">
+			<div class="prev-track" onclick="prevTrack()">
+			<span class="material-symbols-rounded">
+						skip_previous
+					</span>
+			
+					
+					
+			</div>
+			<div class="play-track" onclick="playTrack()">
+			<span class="material-symbols-rounded">
+						play_circle
+					</span>
+				
+			</div>
+			<div class="next-track" onclick="nextTrack()">
+			<span class="material-symbols-rounded">
+					skip_next
+				</span>
+		
+			</div>
+		</div>   
+		
+	</div>	
+	
+	<script src="/js/app.js"></script>
+	<script src="/js/main.js"></script>
+<!--	
+-->
+</body>
+
+</html>
