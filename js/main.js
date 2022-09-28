@@ -50,7 +50,7 @@ let trackList = [
     personnage: "Pierre",
     film: "Rrrr",
     texte: "–\u00a0Ça va être tout noir\u00a0!<br/>–\u00a0Ta gueule\u00a0!<br/>–\u00a0Ça va être tout noir\u00a0!<br/>–\u00a0Ta gueule\u00a0!<br/>–\u00a0Ça va être tout noir\u00a0!<br/>–\u00a0Ta gueule\u00a0!<br/>–\u00a0Ça va être tout noir\u00a0!<br/>–\u00a0Ta gueule\u00a0!<br/>–\u00a0Ça va être tout noir\u00a0!<br/>–\u00a0Ta gueule\u00a0!<br/>–\u00a0Ça va être tout noir\u00a0!<br/>",
-    path: "sources/sons/Rrrr!.mp3"
+    path: "sources/sons/Rrrr.mp3"
   },
   {
     acteur: "Franck Pitiot",
